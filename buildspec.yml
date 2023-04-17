@@ -8,7 +8,7 @@ phases:
             # Install dependencies needed for running the static analysis
             - pip install -r requirements.txt
             - pylint --disable=R,C0103,W0611,W0622t,E1101 $CODEBUILD_SRC_DIR/*.py
-            - pylint --disable=R,C0103,W0611 $CODEBUILD_SRC_DIR/ecom/*.py
+            - pylint --disable=R,C0103,W0611 $CODEBUILD_SRC_DIR/ecommerce/*.py
             - pylint --disable=C,W,E,W0622,R0903,R1710 $CODEBUILD_SRC_DIR/ecommerce/*.py
     pre_build:
         commands:
