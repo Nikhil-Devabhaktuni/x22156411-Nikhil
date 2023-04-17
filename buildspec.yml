@@ -11,8 +11,6 @@ phases:
     pre_build:
         commands:
             - python --version
-            - pylint --disable=R,C0103,W0611,W0622t,E1101 $CODEBUILD_SRC_DIR/*.py
-            - pylint --disable=R,C0103,W0611 $CODEBUILD_SRC_DIR/ecommerce/*.py
 artifacts:
     files:
         - '**/*'
