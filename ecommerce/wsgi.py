@@ -1,3 +1,4 @@
+# pylint: disable=invalid-name
 """
 WSGI config for ecommerce project.
 
@@ -11,10 +12,6 @@ https://docs.djangoproject.com/en/3.0/howto/deployment/wsgi/
 import os
 
 from django.core.wsgi import get_wsgi_application
-from django.core.cache import BaseCache
-from django.core.cache import BaseCache
-from django.core.cache import BaseCache
-from django.core.cache import BaseCache
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ecommerce.settings')
 

@@ -3,6 +3,10 @@
 # pylint: disable=ungrouped-imports
 # pylint: disable=wrong-import-order
 # pylint: disable=missing-module-docstring
+# pylint: disable=bad-whitespace
+# pylint: disable=invalid-name
+# pylint: disable=
+# pylint: disable=
 from django.contrib import admin
 from django.urls import path
 from ecom import views

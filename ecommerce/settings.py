@@ -1,4 +1,5 @@
 # pylint: disable=line-too-long
+# pylint: disable=bad-whitespace
 """
 Django settings for ecommerce project.
 
