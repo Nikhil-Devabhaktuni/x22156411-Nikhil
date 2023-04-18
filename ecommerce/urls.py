@@ -3,16 +3,12 @@
 # pylint: disable=ungrouped-imports
 # pylint: disable=wrong-import-order
 # pylint: disable=missing-module-docstring
-# pylint: disable=bad-whitespace
 # pylint: disable=invalid-name
 # pylint: disable=bad-option-value
-
 from django.contrib import admin
 from django.urls import path
 from ecom import views
 from django.contrib.auth.views import LoginView,LogoutView
-
-
 
 urlpatterns = [
     path('admin/', admin.site.urls),
