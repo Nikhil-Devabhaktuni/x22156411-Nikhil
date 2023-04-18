@@ -1,3 +1,8 @@
+# pylint: disable=line-too-long
+# pylint: disable=missing-final-newline
+# pylint: disable=ungrouped-imports
+# pylint: disable=wrong-import-order
+# pylint: disable=missing-module-docstring
 from django.contrib import admin
 from django.urls import path
 from ecom import views

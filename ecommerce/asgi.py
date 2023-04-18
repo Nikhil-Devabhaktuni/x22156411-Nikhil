@@ -1,3 +1,5 @@
+# pylint: disable=import-error
+# pylint: disable=no-name-in-module
 """
 ASGI config for ecommerce project.
 

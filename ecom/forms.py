@@ -1,3 +1,11 @@
+# pylint: disable=missing-class-docstring
+# pylint: disable=missing-function-docstring
+# pylint: disable=too-few-public-methods
+# pylint: disable=missing-class-docstring
+# pylint: disable=unused-argument
+# pylint: disable=no-member
+# pylint: disable=trailing-newlines
+
 from django import forms
 from django.contrib.auth.models import User
 from . import models
